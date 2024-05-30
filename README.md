@@ -13,6 +13,7 @@
 5. [Advanced Analysis](#advanced-analysis)
 6. [Visual Insights](#visual-insights)
 7. [Conclusion](#conclusion)
+8. [Appendix](#appendix)
 
 ### Project Overview
 The analysis aims to explore key sales attributes such as Retailer, Region, Gender Type, Product Category, Price per Unit, Units Sold, Total Sales, Operating Profit, and Sales Method. The goal is to derive insights into sales performance, customer preferences, and market trends.
@@ -143,3 +144,7 @@ The visualization techniques employed have brought these insights to life, makin
 Looking ahead, this document serves as a blueprint for continuous improvement and innovation in data-driven strategies at Adidas. It emphasizes the importance of a proactive approach to data analysis—anticipating market shifts, adapting strategies, and aligning offerings to meet the evolving demands of a global customer base. Adidas's commitment to leveraging such detailed analytics ensures that it remains at the forefront of the sportswear and fashion industry, poised for further growth and success.
 
 In conclusion, the meticulous analysis and visualization of Adidas sales data provide invaluable insights that drive strategic decisions and foster a deeper understanding of market dynamics. By continuously refining these techniques and incorporating new data sources, Adidas can maintain its competitive edge and continue to delight customers worldwide.
+
+### Appendix
+**Code Snippet:**
+<a href="Adidas.ipynb"> Adidas Sales Analysis Using Python </a>
