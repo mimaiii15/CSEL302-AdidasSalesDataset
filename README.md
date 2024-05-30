@@ -41,14 +41,37 @@ By analyzing these attributes, we can tailor business strategies to better meet 
 
 **Data Loading**: Data is loaded from a CSV file into a Data Frame.
 
-•	**Loading Data from CSV**: The Adidas sales dataset is loaded into a Pandas DataFrame from a CSV file using pd.read_csv(). This method reads the CSV file and converts the structured data into a DataFrame, which is ideal for data manipulation and analysis.
+*	**Loading Data from CSV**: The Adidas sales dataset is loaded into a Pandas DataFrame from a CSV file using pd.read_csv(). This method reads the CSV file and converts the structured data into a DataFrame, which is ideal for data manipulation and analysis.
 
 **Data Cleaning and Preprocessing**: Basic preprocessing steps are carried out to ensure the data is in a suitable format for analysis.
 
-•	**Converting Dates to DateTime Objects**: Many datasets contain date information in string format, which can be cumbersome for time-series analysis. By converting the 'Invoice Date' column to DateTime objects, we can perform more efficient date-based operations such as sorting, filtering, and aggregating data over time.
+*	**Converting Dates to DateTime Objects**: Many datasets contain date information in string format, which can be cumbersome for time-series analysis. By converting the 'Invoice Date' column to DateTime objects, we can perform more efficient date-based operations such as sorting, filtering, and aggregating data over time.
 
-•	**Handling Categorical Data**: Transforming categorical data into a suitable format is essential for effective analysis. This involves encoding categorical variables, such as 'Gender Type' and 'Sales Method', into numerical values using techniques like one-hot encoding or label encoding. This step ensures that the data can be effectively used in various analytical and machine learning models.
+*	**Handling Categorical Data**: Transforming categorical data into a suitable format is essential for effective analysis. This involves encoding categorical variables, such as 'Gender Type' and 'Sales Method', into numerical values using techniques like one-hot encoding or label encoding. This step ensures that the data can be effectively used in various analytical and machine learning models.
 
 These foundational steps in data handling ensure that the dataset is well-prepared for deeper analysis and visualization. By meticulously processing the data, we can perform more complex analyses that lead to actionable insights and drive strategic business decisions.
  
+### Data Analysis Technique
+
+**Descriptive Statistics:**
+
+Descriptive statistics provide a comprehensive overview of the data through various summary metrics. These include mean, median, count, standard deviation, and more. In the context of the Adidas sales analysis, these statistics help in understanding the data distribution and key trends:
+* **Mean and Median**: 
+*	**Mean (Average)**: Provides an overall sense of central tendency for numerical data such as Price per Unit and Total Sales. For instance, the average price per unit can help understand the general pricing strategy, while the average total sales offer insights into revenue generation.
+*	**Median:** Shows the middle value in the data distribution, helping to understand the typical sales figures and prices, especially in skewed distributions.
+
+*	**Count:** Indicates the number of non-null entries in each column, helping to assess the completeness of the dataset and identify any columns with missing data.
+
+*	**Standard Deviation:** Measures the variability or dispersion of a set of values. A high standard deviation in Total Sales or Units Sold indicates a wide range of sales performance, reflecting diverse customer purchasing behavior.
+
+**Data Visualization**
+
+Visual representations are crucial for interpreting and communicating data insights. Various plots and charts are used to visualize sales trends, customer preferences, and regional performance. Visual representations of data are used to understand trends, patterns, and outliers more intuitively. Here’s how various types of plots are employed:
+
+*	**Bar Charts:** Used to compare the frequency or amount of different categories. For example, bar charts can illustrate the number of units sold across different product categories or the total sales in various regions. This helps in identifying the most and least popular products and regions.
+*	**Pie Charts:** Effective for showing the proportional distribution of categories. Pie charts can display the percentage share of sales methods (e.g., online vs. outlet) or the distribution of sales by gender, making it easy to see dominant categories.
+*	**Heatmaps:** Useful for visualizing the intensity of data and identifying patterns. Heatmaps can show the correlation between variables such as Price per Unit, Units Sold, and Total Sales, helping to uncover relationships and trends.
+*	**Count Plots and Distribution Plots:** Count plots are helpful for visualizing the frequency of categorical data, such as the number of sales transactions by state or city. Distribution plots can show the distribution of numerical data like Operating Profit, highlighting common and extreme values.
+
+These descriptive statistics and visualization techniques are fundamental for transforming raw data into actionable insights. They provide the numerical and visual tools needed to understand the data deeply, supporting strategic business decisions based on clear and comprehensible information.
 
